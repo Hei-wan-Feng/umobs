@@ -1,0 +1,3 @@
+umobs(Universal Mod of Bricks Studio) or umobs(Hei_wan_Feng's Universal Mod Next) or UMoBS. It created on after similar hwfsum(Hei_wan_Feng's Universal Mod), now, it has been renamed umobs. You can find old repository of Github: https://github.com/Hei-wan-Feng/HwFsUM-Hei_wan_Feng-s-Universal-Mod-/tree/main/
+
+And if you want to update version, please go to modfiy gradle.properites and changelog in root directory and root directory/src/main/resources

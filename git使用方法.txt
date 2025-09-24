@@ -1,0 +1,12 @@
+提示:不要粘贴()里的内容和()，$(,)内容代表了括号里的内容可以任意填写一个，$(东西)：代表参数并非固定的东西
+
+git init(创建.git文件夹，不然无法进行操作)
+git add $(., $文件名)(添加要推送的文件)
+git commit -m "$(commit内容)"(commit内容将会添加到git add的所有的commit)
+git checkout -b $(branch名)(切换到其他的branch)
+git remote add $(别名) https://github.com/$(用户)/$(存储库).git(选择要push或者pull的仓库)
+git push -u $(前面指令的那个别名) $(branch)(进行推送，之后只需要git push即可)
+git pull -u $(前面指令的那个别名) $(branch)(进行拉取，之后只需要git pull即可)
+git restore --staged $(文件名).$(文件扩展名)(这是给暂存区的文件撤销的操作，不要少掉--staged，少掉了会很危险)
+
+警告：该使用方法只列取了常用的，并非完整版
